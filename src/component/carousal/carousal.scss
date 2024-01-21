@@ -1,0 +1,30 @@
+.partner {
+    mask-image: linear-gradient(90deg,transparent,#000 20%,#000 80%,transparent);
+}
+.carousal {
+    width: 100%;
+    & > .slick-list {
+        overflow: hidden;
+        & > .slick-track {
+            display: flex;
+            & > .slick-slide {
+                width: max-content !important;
+                margin: 0 20px;
+            }
+        }
+    }
+    & > .slick-next, & >.slick-prev {
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: 50%;
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        cursor: pointer;
+        border: none;
+    }
+}
