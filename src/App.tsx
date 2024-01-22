@@ -37,7 +37,7 @@ function Template() {
       <Text textStyle={'p'} textAlign={'center'}>
         Customise an office template, or design something more personal, like an invitation.
       </Text>
-      <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 750: 2, 900: 3, 1024: 4}} style={{
+      <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 750: 2, 900: 3, 1024: 4, 1440: 5}} style={{
         width: '100%'
       }}>
         <Masonry gutter="10px" >
