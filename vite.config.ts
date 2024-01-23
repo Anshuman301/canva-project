@@ -11,7 +11,7 @@ export default defineConfig({
     devOptions: {
     enabled:true
   },
-  includeAssets: ['apple-touch-icon.png', 'favicon.ico', 'favicon.svg', 'pwa-maskable-192x192.svg'],
+  includeAssets: ['apple-touch-icon.png', 'favicon.ico', 'favicon.svg', 'pwa-maskable-192x192.png'],
       manifest: {
         name: 'My Awesome App',
         short_name: 'MyApp',
