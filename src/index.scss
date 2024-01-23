@@ -1,4 +1,17 @@
+@import "partials.scss";
+:root {
+    --chakra-colors-chakra-body-bg: #{$color-white};
+    --chakra-colors-chakra-body-text: #{$color-black};
+}
+
+.dark {
+    --chakra-colors-chakra-body-bg: #{$color-black};
+    --chakra-colors-chakra-body-text: #{$color-white};
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    background: var(--chakra-colors-chakra-body-bg);
+    color: var(--chakra-colors-chakra-body-text);
 }

@@ -28,3 +28,20 @@
         border: none;
     }
 }
+
+%placeholder {
+    @media(min-width: 0) {
+        & {
+            margin-top: 20px;
+        }
+    }
+    @media(min-width: 600px) {
+        & {
+            margin-top: 72px;
+        }
+    }
+}
+.mt {
+    @extend %placeholder
+}
+

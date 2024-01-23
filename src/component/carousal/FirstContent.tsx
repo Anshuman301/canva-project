@@ -1,9 +1,9 @@
 import { Box, Button, HStack, Image, Text, VStack } from "@chakra-ui/react";
 import { faker } from "@faker-js/faker";
-
+import './carousal.scss';
 export default function FirstContent() {
     return (
-        <VStack mt={'72px'}>
+        <VStack className="mt">
             <Text textStyle={'h1'} textAlign={'center'}>What will you design today</Text>
             <Text textStyle={'subtitle'} textAlign={'center'}>Canva make it easy to create professional designs and to share or  print them</Text>
             <Button>Signup for free</Button>
